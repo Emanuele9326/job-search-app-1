@@ -1,0 +1,15 @@
+.mat-form-field+.mat-form-field {
+    margin-left: 8px;
+}
+
+mat-expansion-panel {
+    width: 50%;
+    border: 1px solid black;
+}
+
+mat-expansion-panel-header {
+    background-color: rgb(224, 222, 222);
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+    height: 30px;
+}

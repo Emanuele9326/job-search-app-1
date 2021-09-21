@@ -1,0 +1,16 @@
+<div>
+    <ul class="list-group-flush">
+        <li *ngFor="let jobs of results" class="list-group-item">
+            <ul>
+                <li>
+                    <a routerLink="/detail-page/{{jobs.id}}"> {{jobs.name}};</a>
+                </li>
+                <li>id: {{jobs.id}}</li>
+                <li *ngFor="let loc of jobs.locations"> locations: {{loc.name}};</li>
+                <li> publication_date: {{jobs.publication_date}};</li>
+                <li *ngFor="let levels of jobs.levels">levels: {{levels.name}}</li>
+            </ul>
+
+        </li>
+    </ul>
+</div>

@@ -1,0 +1,29 @@
+<nav><a routerLink='/first-page'><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+  class="bi bi-arrow-left" viewBox="0 0 16 16">
+  <path fill-rule="evenodd"
+    d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+</svg>JOB List</a></nav>
+
+<div class='search-detailpage'>
+    <h3>Job Position: {{name}}</h3>
+
+    <ul>
+        <li>Id: {{id}}</li>
+        <li>
+
+            <div [innerHTML]="contents"></div>
+        </li>
+        <li>Work level: {{levels}}</li>
+        <li *ngFor="let loc of locations">
+            <p *ngFor="let item of loc|keyvalue">Location:{{item.value}}</p>
+
+        </li>
+        <li>
+
+            <app-accordin-company [company]="nameCompany" [id]="idNumber"></app-accordin-company>
+
+        </li>
+        <li>Date: {{date}}</li>
+
+    </ul>
+</div>
