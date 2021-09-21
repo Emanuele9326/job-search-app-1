@@ -28,7 +28,7 @@ La finalità di questo progetto è quella di sviluppare un'applicazione usando i
 La piattaforma The Muse offre semplici APIs per la ricerca di annunci di lavoro ma anche per avere informazioni relative ad un'azienda in particolare.
 
 L'app licazione è stata deployata su Firebase:
-- <h4>Link Firebase: <a>https://job-search-app-5bf69.web.app/</a></h4>
+- <h4>Link Firebase: (https://job-search-app-5bf69.web.app)</h4>
 
 #### <h3>Costruito con:</h3>
 
@@ -56,25 +56,30 @@ L'app licazione è stata deployata su Firebase:
 Contiene l'immagini presenti nel README.md
 
 <h4>Cartella src</h4>
-<details open="open">
+<details>
   <summary>Cartella src</summary>
-  <ol>
-    <li>
+   <ol>
+     <li>
       Cartella app: contiene i file dei componenti in cui sono definiti la logica e i dati dell'applicazione.
       Componenti, modelli e stili angolari vanno qui.
       Per esempio:
-
-      - app/app.componets.ts: Definisce la logica per il componente radice dell'applicazione, denominato  AppComponent. La vista associata a questo componente radice diventa la radice della gerarchia della vista 
-      quando si aggiungono componenti e servizi all'applicazione.
-      - app/app.component.html definisce il modello HTML associato all'AppComponent radice.
-      - app/app.component.css definisce il foglio di stile CSS di base per L'AppComponent radice.
-      - app/app.component.spec.ts definisce uno unit test per l'AppComponent radice.
-      - app/app.module.ts definisce il modulo radice, denominato AppModule, che indica ad Angular come   assemblare l'applicazione. Man mano che si aggiungono altri componenti all'app, questi devono essere dichiarati qui.
-   </li>
-   <li>
-     Cartella assets: contiene immagini e altri file di risorse da copiare cosi come sono quando crei l'applicazione.
-    </li>
-   <li>
+      <ol>
+        <li>
+          app/app.componets.ts: Definisce la logica del componente radice dell'applicazione, denominato AppComponent.
+          La vista associata a questo componente radice diventa la radice della gerarchia della vista quando si aggiungono componenti e servizi all'applicazione.
+        </li>
+        <li>app/app.component.html definisce il modello HTML associato all'AppComponent radice.</li>
+        <li>app/app.component.css definisce il foglio di stile CSS di base per L'AppComponent radice.</li>
+        <li>app/app.component.spec.ts definisce uno unit test per l'AppComponent radice.</li>
+        <li> app/app.module.ts definisce il modulo radice, denominato AppModule, che indica ad Angular come assemblare l'applicazione. 
+              Man mano che si aggiungono altri componenti all'app, questi devono essere dichiarati qui.
+        </li>
+     </ol>
+  </li>
+   
+  <li>Cartella assets: contiene immagini e altri file di risorse da copiare cosi come sono quando crei l'applicazione.</li>
+   
+  <li>
      Cartella environments: contiene le opzioni di configurazione della build per particolari ambienti di destinazione
    </li>
    <li>Altri file come:
@@ -129,7 +134,7 @@ Le applicazioni Angular, Angular CLI e Angular dipendono dai pachetti npm per mo
 L'app può essere testata in locale eseguendo i seguenti passaggi:
 
 - Clonare il repository del progetto in locale 
-  Repository del progetto si trova al segunete link: <a>https://github.com/Emanuele9326/job-search-app.git</a>
+  Repository del progetto si trova al segunete link: <a>https://github.com/Emanuele9326/job-search-app-1.git</a>
 
 - Installare le "dependencies" e "devDependencies" che sono riportate nel file package.json tramite il comando :
   
