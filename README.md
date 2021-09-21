@@ -27,7 +27,7 @@ La finalità di questo progetto è quella di sviluppare un'applicazione usando i
 
 La piattaforma The Muse offre semplici APIs per la ricerca di annunci di lavoro ma anche per avere informazioni relative ad un'azienda in particolare.
 
-L'app licazione è stata deployata su Firebase:
+L'applicazione è stata deployata su Firebase:
 - <h4>Link Firebase: (https://job-search-app-5bf69.web.app)</h4>
 
 #### <h3>Costruito con:</h3>
