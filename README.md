@@ -53,7 +53,7 @@ L'applicazione è stata deployata su Firebase:
 ### Struttura Repository
 
 <h4>Cartella img-README</h4>
-Contiene l'immagini presenti nel README.md
+Contiene le immagini presenti nel README.md
 
 <h4>Cartella src</h4>
 <details>
@@ -134,7 +134,6 @@ Le applicazioni Angular, Angular CLI e Angular dipendono dai pachetti npm per mo
 L'app può essere testata in locale eseguendo i seguenti passaggi:
 
 - Clonare il repository del progetto in locale 
-  Repository del progetto si trova al segunete link: <a>https://github.com/Emanuele9326/job-search-app-1.git</a>
 
 - Installare le "dependencies" e "devDependencies" che sono riportate nel file package.json tramite il comando :
   
@@ -143,14 +142,14 @@ L'app può essere testata in locale eseguendo i seguenti passaggi:
   ![](img-README/package1.png) 
   ![](img-README/package.png)
 
-Successivamente insallare anche:
+Successivamente installare anche:
 - npm install @fortawesome/fontawesome-svg-core
 - npm install @fortawesome/fontawesome-common-types
   
 
 - Testare l'app in locale tramite il comando ng serve.
 Il comando "ng serve" crea e serve l'app, ricostruendola in base alle modifiche ai file .
-Una volta che l'app è stata creata e servita andare al seguente link <a>http://localhost:4200/**</a> oppure clicare sul link riportato nel terminale, vedere immagine seguente.
+Una volta che l'app è stata creata e servita andare al seguente link <a>http://localhost:4200/**</a> oppure cliccare sul link riportato nel terminale, vedere immagine seguente.
 ![](img-README/link.png)
 
 ## Licenza
