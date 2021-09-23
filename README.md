@@ -113,14 +113,14 @@ Per esempio:
 </ol>
 
 ### Funzionalità dell'applicazione
-Nella home page dell'applicazione vengono visualizzati degli annunci di lavoro per la categoria Engineering con le informazioni base (es. figura lavorativa ricercata, id, luogo, livello, data di publicazione).
+Nella home page dell'applicazione vengono visualizzati degli annunci di lavoro per la categoria Engineering con le informazioni base (es. figura lavorativa ricercata, id, luogo, livello, data di pubblicazione).
 Di default vengono visualizzati annunci di lavoro di qualsiasi livello lavorativo (Entry level, Mid-level,Senior level).
 
-Cliccando sul nome della figura lavorativa ricercata in ciascuno annuncio, si viene reindirizzati alla pagina di detaglio dell'annuncio di lavoro. In questa paggina sono presenti tutte le informazioni relative all'annuncio e all'azienda.
+Cliccando sul nome della figura lavorativa ricercata in ciascuno annuncio, si viene reindirizzati alla pagina di detaglio dell'annuncio di lavoro. In questa pagina sono presenti tutte le informazioni relative all'annuncio e all'azienda.
 La barra di ricerca permette all'utente di cercare gli annunci in base al livello lovarativo. La ricerca può essere effettuata per un livello lavorativo alla volta , non sono consentite scelte multiple.
 
 Quando si passa dalla home page alla pagina di dettaglio di ciascun annuncio si nota che la barra di ricerca 
-rimane fissa, questo permette all'utente pur trovandosi nella paggina di dettaglio di un'annuncio di poter effetuare una nuova ricerca. 
+rimane fissa, questo permette all'utente pur trovandosi nella pagina di dettaglio di un'annuncio di poter effetuare una nuova ricerca. 
 Sempre nella paggina di dettaglio sotto la barra di ricerca è presente un collegamento "JOB LIST" cliccando su di esso si ritorna alla home page.
 
 
